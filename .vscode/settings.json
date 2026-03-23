@@ -5,5 +5,13 @@
         "markdown": false,
         "scminput": false
     },
-    "sqltools.useNodeRuntime": true
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "tubely.db",
+            "name": "db"
+        }
+    ]
 }
